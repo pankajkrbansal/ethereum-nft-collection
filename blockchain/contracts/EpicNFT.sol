@@ -2,9 +2,9 @@
 
 pragma solidity >=0.8.0;
 
-import "../node_modules/hardhat/console.sol";
-import "../node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol";
-import "../node_modules/@openzeppelin/contracts/utils/Counters.sol";
+import "hardhat/console.sol";
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts/utils/Counters.sol";
 
 contract EpicNFT is ERC721 {
     using Counters for Counters.Counter;
@@ -30,6 +30,6 @@ contract EpicNFT is ERC721 {
         uint256 _tokenId
     ) public view override returns (string memory) {
         require(_exists(_tokenId));
-        return "blah";
+        return "https://jsonkeeper.com/b/R70Q";
     }
 }
