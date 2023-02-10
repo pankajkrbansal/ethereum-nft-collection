@@ -1,0 +1,29 @@
+.logoutButton {
+    background: #088433; 
+    padding:20px;
+    border-radius: 26px;
+    width: 20%;
+    font-weight: 900;
+    color: #668ba4;
+    margin-top: 10px;
+    border: 5px #4e9567;
+    position: absolute;
+}
+
+.logoutButton:hover{
+    color:wheat;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px grey;
+    background-color: #3caf64;
+}
+
+.text {
+    
+}
+
+.LogoutDiv{
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
