@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "D:\\buildspace\\ethereum-nft-collection\\blockchain\\contracts\\EpicNFT.sol": {
-      "lastModificationDate": 1675794765953,
-      "contentHash": "52078ce6ea83a8bcaadc66bda1f7576a",
+      "lastModificationDate": 1676124207442,
+      "contentHash": "474ea77347e5b9c66b91a52ea8d94e19",
       "sourceName": "contracts/EpicNFT.sol",
       "solcConfig": {
         "version": "0.8.1",

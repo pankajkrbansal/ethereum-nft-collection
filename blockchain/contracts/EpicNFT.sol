@@ -18,6 +18,8 @@ contract EpicNFT is ERC721URIStorage {
     string[] secondWords = ["Comics", "Spices", "West", "Earth", "Bugs", "NewTech"];
     string[] thirdWords = ["Japan", "Heritage", "USA", "Home", "Code", "NewProblems"];
 
+    event MintNFT(address sender, uint256 tokenID);
+    
     constructor() ERC721("EpicNFT", "ENFT") {
         console.log("NFT Contract");
     }
@@ -88,6 +90,7 @@ contract EpicNFT is ERC721URIStorage {
         _setTokenURI(nftId, finalTokenUri);
         // tokenURI(nftId);
         // increment counter
+        emit MintNFT(msg.sender, nftId);
         _tokenIds.increment();
     }
 
