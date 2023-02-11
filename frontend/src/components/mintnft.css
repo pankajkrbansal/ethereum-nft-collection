@@ -1,4 +1,4 @@
-.loginButton {
+.mintButton {
     background: #83e9a7; 
     padding:20px;
     border-radius: 26px;
@@ -9,7 +9,7 @@
     border: 5px #4e9567;
 }
 
-.loginButton:hover{
+.mintButton:hover{
     color:wheat;
     cursor: pointer;
     box-shadow: 3px 3px 3px grey;

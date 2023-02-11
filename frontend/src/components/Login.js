@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { InjectedConnector } from "@web3-react/injected-connector";
-import { useWeb3React } from "@web3-react/core";
 import "./login.css";
 import MintNFT from "./MintNFT";
 
@@ -66,7 +64,7 @@ let Login = () => {
     return (
       <div>
         {/* <h2>Wallet Is Connected</h2> */}
-        <MintNFT name="pkb" />
+        <MintNFT name="pkb" walletAddr />
       </div>
     );
   } else {
