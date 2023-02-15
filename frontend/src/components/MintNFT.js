@@ -2,6 +2,7 @@ import React from "react";
 import { ethers } from "ethers";
 import epicNFT from "../utils/EpicNFT.json";
 import "./mintnft.css";
+import Logout from "./Logout";
 
 let MintNFT = (props) => {
   console.log(props);
@@ -44,6 +45,7 @@ let MintNFT = (props) => {
         >
           Click To Generate NFT
         </button>
+        {/* <Logout/> */}
       </div>
     </div>
   );
